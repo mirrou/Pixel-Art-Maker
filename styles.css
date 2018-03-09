@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    background-color: #4F6367;
+}
+
+.title {
+    font-family: Monoton;
+    color: #B8D8D8;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+.gridSize-header,
+.colorPicker-header,
+.designCanvas-header {
+    font-family: 'Krona One', sans-serif;
+    margin: 1em 0 0.25em;
+    color: #B8D8D8;
+}
+
+.gridSize-header {
+  margin-top: 0.5em;
+}
+
+.canvasInstructions {
+  font-family: 'Krona One', sans-serif;
+  color: #B8D8D8;
+}
+
+.gridHeight-label,
+.gridWidth-label {
+  font-family: 'Krona One', sans-serif;
+  color: #B8D8D8;
+}
+
+.btn {
+  margin-top: 1em;
+  border: 1px solid white;
+  background: none;
+  border-radius: 25px;
+  height:3em;
+  width: 10em;
+  font-family: 'Krona One', sans-serif;
+  color: #B8D8D8;
+  outline:none;
+}
+.btn:hover {
+  opacity: .5;
+  background: white;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+.input-height,
+.input-width {
+    width: 4em;
+    background-color:#B8D8D8;
+}
